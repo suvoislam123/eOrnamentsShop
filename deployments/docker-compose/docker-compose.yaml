@@ -1,0 +1,28 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: products-postgres
+    environment:
+      POSTGRES_DB: ProductDb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+  products-api:
+    container_name: products-api
+    build:
+      context: ../..
+      dockerfile: src/Services/Products/Products.API/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__Postgres: Host=postgres;Port=5432;Database=ProductDb;Username=postgres;Password=postgres
+    depends_on:
+      - postgres
+
+volumes:
+  postgres_data:

@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/deployments/" />
+  <Folder Name="/deployments/configs/">
+    <File Path="deployments/configs/init-postgres.sql" />
+  </Folder>
+  <Folder Name="/deployments/docker-compose/">
+    <File Path="deployments/docker-compose/docker-compose.yaml" />
+  </Folder>
+  <Folder Name="/deployments/k8s/" />
+  <Folder Name="/solution-items/" />
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Identity/">
+    <Project Path="src/Services/Identity/Identity.API/Identity.API.csproj" Id="cbbc45a4-a5a8-4995-9307-1cb31756178e" />
+    <Project Path="src/Services/Identity/Identity.Domain/Identity.Domain.csproj" Id="faa0a826-7ef8-493d-8607-db7fc989d44a" />
+  </Folder>
+  <Folder Name="/src/Services/Products/">
+    <Project Path="src/Services/Products/Products.API/Products.API.csproj" />
+    <Project Path="src/Services/Products/Products.Application/Products.Application.csproj" />
+    <Project Path="src/Services/Products/Products.Domain/Products.Domain.csproj" />
+    <Project Path="src/Services/Products/Products.Infrastructure/Products.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/test/" />
+</Solution>
