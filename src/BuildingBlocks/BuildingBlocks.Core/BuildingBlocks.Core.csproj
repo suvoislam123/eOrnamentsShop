@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net11.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MassTransit" Version="9.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.11" />
+    <PackageReference Include="Microsoft.Extensions.Options.ConfigurationExtensions" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Messages\Extensions\" />
+    <Folder Include="Messages\MessagePersistence\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingBlocks.Abstractions\BuildingBlocks.Abstractions.csproj" />
+  </ItemGroup>
+
+</Project>

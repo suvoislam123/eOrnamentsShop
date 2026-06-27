@@ -9,6 +9,15 @@
   <Folder Name="/deployments/k8s/" />
   <Folder Name="/solution-items/" />
   <Folder Name="/src/" />
+  <Folder Name="/src/Aspire/">
+    <Project Path="src/Aspire/eOrnamentsShop.ServiceDefaults/eOrnamentsShop.ServiceDefaults.csproj" Id="8b381ac6-a088-482f-875b-130d3d347fa5" />
+  </Folder>
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Abstractions/BuildingBlocks.Abstractions.csproj" Id="2857d514-62b1-4744-b266-2bb0fdb6f5b2" />
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Core/BuildingBlocks.Core.csproj" Id="5e82980c-edec-4cab-8843-cef77960df1c" />
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Email/BuildingBlocks.Email.csproj" Id="bb9a95d8-b1b5-4455-af20-76904e0ce419" />
+    <Project Path="src/BuildingBlocks/BuildingBlocks.Web/BuildingBlocks.Web.csproj" Id="5d86417c-4e00-43c8-9f21-5a06eed53316" />
+  </Folder>
   <Folder Name="/src/Services/" />
   <Folder Name="/src/Services/Identity/">
     <Project Path="src/Services/Identity/Identity.API/Identity.API.csproj" Id="cbbc45a4-a5a8-4995-9307-1cb31756178e" />
