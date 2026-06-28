@@ -62,7 +62,7 @@ public static class HostApplicationBuilderExtensions
     {
         builder.AddDefaultHealthChecks();
 
-        builder.AddDiagnostics(builder.Configuration.GetValue<string>("InstrumentationName") ?? "food-delivery");
+        builder.AddDiagnostics(builder.Configuration.GetValue<string>("InstrumentationName") ?? "eOrnamentsShop");
 
         builder.AddDefaultOpenTelemetry();
 
