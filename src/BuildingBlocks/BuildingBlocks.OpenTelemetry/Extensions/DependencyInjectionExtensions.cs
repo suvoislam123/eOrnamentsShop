@@ -148,7 +148,11 @@ public static class DependencyInjectionExtensions
                 .AddProcessor(new FixHttpRouteProcessor())
                 .AddEntityFrameworkCoreInstrumentation(instrumentationOptions =>
                 {
-                    instrumentationOptions.SetDbStatementForText = true;
+                    //instrumentationOptions.SetDbStatementForText = true;
+                    instrumentationOptions.EnrichWithIDbCommand = (activity, command) =>
+                    {
+                        activity.SetTag("db.name", command.Connection?.Database);
+                    };
                 })
                 .AddNpgsql();
 

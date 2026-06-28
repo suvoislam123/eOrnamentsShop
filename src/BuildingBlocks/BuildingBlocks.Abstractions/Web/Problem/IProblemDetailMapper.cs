@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BuildingBlocks.Abstractions.Web;
+namespace BuildingBlocks.Abstractions.Web.Problem;
 
 public interface IProblemDetailMapper
 {

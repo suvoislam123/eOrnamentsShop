@@ -1,0 +1,11 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace BuildingBlocks.Abstractions.Commands;
+
+public interface IAsyncCommandBus
+{
+    public Task SendExternalAsync<TCommand>(TCommand command, CancellationToken cancellationToken = default)
+        where TCommand : class, IAsyncCommand;
+}

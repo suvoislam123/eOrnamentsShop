@@ -17,11 +17,16 @@
     <Project Path="src/BuildingBlocks/BuildingBlocks.Core/BuildingBlocks.Core.csproj" Id="5e82980c-edec-4cab-8843-cef77960df1c" />
     <Project Path="src/BuildingBlocks/BuildingBlocks.Email/BuildingBlocks.Email.csproj" Id="bb9a95d8-b1b5-4455-af20-76904e0ce419" />
     <Project Path="src/BuildingBlocks/BuildingBlocks.HealthCheck/BuildingBlocks.HealthCheck.csproj" Id="671c9914-a12f-4e4f-81ed-7d83ecea40a3" />
+    <Project Path="src/BuildingBlocks/BuildingBlocks.OpenApi/BuildingBlocks.OpenApi.csproj" Id="807d8bfe-1aa0-4511-a22a-6632adb10253" />
     <Project Path="src/BuildingBlocks/BuildingBlocks.OpenTelemetry/BuildingBlocks.OpenTelemetry.csproj" Id="d47933e4-ea82-4d04-a902-e9e2d94a9131" />
     <Project Path="src/BuildingBlocks/BuildingBlocks.Resiliency/BuildingBlocks.Resiliency.csproj" Id="1f36d46c-03b4-4933-9946-1764b50f9ccc" />
     <Project Path="src/BuildingBlocks/BuildingBlocks.Web/BuildingBlocks.Web.csproj" Id="5d86417c-4e00-43c8-9f21-5a06eed53316" />
   </Folder>
   <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Catalogs/">
+    <Project Path="src/Services/Catalogs/eOrnamentsShop.Services.Catalogs.Api/eOrnamentsShop.Services.Catalogs.Api.csproj" Id="5fe6dd8d-6c84-4058-934e-beb6c55209d7" />
+    <Project Path="src/Services/Catalogs/eOrnamentsShop.Services.Catalogs/eOrnamentsShop.Services.Catalogs.csproj" Id="134841c1-938f-4baf-9add-270f7d8ecfe3" />
+  </Folder>
   <Folder Name="/src/Services/Identity/">
     <Project Path="src/Services/Identity/Identity.API/Identity.API.csproj" Id="cbbc45a4-a5a8-4995-9307-1cb31756178e" />
     <Project Path="src/Services/Identity/Identity.Domain/Identity.Domain.csproj" Id="faa0a826-7ef8-493d-8607-db7fc989d44a" />

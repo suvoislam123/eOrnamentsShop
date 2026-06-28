@@ -1,8 +1,9 @@
-﻿using BuildingBlocks.Abstractions.Web;
+﻿using BuildingBlocks.Abstractions.Web.Problem;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;

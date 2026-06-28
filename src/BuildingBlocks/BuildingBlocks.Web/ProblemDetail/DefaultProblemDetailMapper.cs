@@ -1,4 +1,4 @@
-﻿using BuildingBlocks.Abstractions.Web;
+﻿using BuildingBlocks.Abstractions.Web.Problem;
 using BuildingBlocks.Core.Exception;
 using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
